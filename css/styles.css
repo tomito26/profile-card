@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Kumb Sans",sans-serif;
+
+}
+
+
+main{
+    width: 350px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: relative;
+
+}
+main .image{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border-radius:4px solid white; ;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    right: 25%;
+    
+
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
+  
+}
+.profile-details{
+    margin-top: 50px;
+ 
+}
+.profile-details-top{
+    font-family: "Kumbh Sans",sans-serif;
+    color:hsl(227, 10%, 46%);
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.profile-details-top .name{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+.profile-details-top .age{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.profile-details-bottom {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Kumbh Sans",sans-serif;
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+    line-height: 20px;
+    border-top: 1px solid rgba(0,0,0,.1) ;
+}
+.profile-details-bottom .stats{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+.followers,.likes, .photos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:20px 20px ; 
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
